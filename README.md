@@ -73,7 +73,7 @@ To test the API endpoints using Postman, follow these steps:
 ---
 ## 🎥Demo
 
-https://github.com/Mohamad-shosha/E-commerce-App/assets/150439621/96b073f8-c513-4612-b7bc-65987e013085
+https://github.com/Mohamad-shosha/E-commerce-App/assets/150439621/d12513f6-3e75-414b-987e-0cb9579b9c30
 
 
 ---
