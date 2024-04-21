@@ -28,9 +28,8 @@ Before you begin, ensure you have met the following requirements:
 ---
 ## ✨Getting Started
 
-Step 1: Create a Spring Boot Project
-
-You can use Spring Initializr to generate a basic Spring Boot project. Visit [start.spring.io](https://start.spring.io/;) and configure your project with the following settings:
+Step 1: Create a Spring Boot Project by use Spring Initializr to generate a basic Spring Boot project. 
+Visit[start.spring.io](https://start.spring.io/;) and configure your project with the following settings:
 
 * Project: Maven Project
 * Language: Java
@@ -39,21 +38,13 @@ You can use Spring Initializr to generate a basic Spring Boot project. Visit [st
 * Dependencies: Spring Web , Spring Data JPA , devtools , thymeleaf , data-jpa , security , mysql-connector-j and plugin.
 Click on "Generate" to download the project zip file.
 
-Step 2: Extract and Import into IDE
+Step 2: Extract the downloaded zip file and import the project into your preferred IDE (IntelliJ IDEA, Eclipse, etc.).
 
-Extract the downloaded zip file and import the project into your preferred IDE (IntelliJ IDEA, Eclipse, etc.).
+Step 3: Define and create a simple entity class representing the object you want to manage. For example, if you are building a E-commerce application for , create a products and product-category classes , and this varies according to your project and its dependence on the entites and relationships in the data base .
 
-Step 3: Define Entity
+Step 4: Create Repository interface for your entity to perform CRUD operations.
 
-Create a simple entity class representing the object you want to manage. For example, if you are building a E-commerce application for , create a products and product-category classes , and this varies according to your project and its dependence on the entites and relationships in the data base .
-
-Step 4: Create Repository
-
-Create a repository interface for your entity to perform CRUD operations.
-
-Step 5: Create Controller
-
-Create a controller to handle HTTP requests and interact with the repository.
+Step 5: Create a Controller to handle HTTP requests and interact with the repository.
 
 ## Note 🚫
 This E-Commerce application operates in a read-only mode. It does not support PUT, POST, or DELETE operations. It is designed solely for viewing products, orders, and inventory. Thank you for your understanding. 🛍️
