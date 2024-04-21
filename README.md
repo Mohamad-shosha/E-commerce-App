@@ -7,7 +7,7 @@ Welcome to our **E-Commerce** App! This application is built using Spring Boot a
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Note](#Note)
-- [Postman testing](#Postman Testing)
+- [Postman testing](#Postman-Testing)
 - [Technologies](#Technologies)
 - [Demo](#Demo)
 - [Resourses](#Resourses)
@@ -54,7 +54,7 @@ Create a controller to handle HTTP requests and interact with the repository.
 This E-Commerce application operates in a read-only mode. It does not support PUT, POST, or DELETE operations. It is designed solely for viewing products, orders, and inventory. Thank you for your understanding. 🛍️
 
 
-## Postman Testing
+## Postman-Testing
 To test the API endpoints using Postman, follow these steps:
 1. **Import Postman Collection**: 
 - Import the provided Postman collection file `ecommerce_app.postman_collection.json`.
